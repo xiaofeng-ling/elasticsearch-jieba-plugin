@@ -15,7 +15,7 @@ public class JiebaTokenizerFactory extends AbstractTokenizerFactory {
   private String segMode;
 
   public JiebaTokenizerFactory(IndexSettings indexSettings, Environment env, Settings settings) {
-    super(indexSettings, settings, TokenizerName);
+    super(indexSettings, TokenizerName, settings);
     JiebaDict.init(env);
   }
 
