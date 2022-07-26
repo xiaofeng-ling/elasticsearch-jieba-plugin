@@ -1,6 +1,10 @@
 # elasticsearch-jieba-plugin
 进行6.6.1适配
 
+## 构建要求
+java 1.8
+gradle 7.2+
+
 ## 特点
 - 支持动态添加字典，不重启ES。
 
